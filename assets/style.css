@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: grey;
+    font-size: 120%;
+}
+
+h1, h2 {
+    color: #fff;
+    font: bold;
+}
+
