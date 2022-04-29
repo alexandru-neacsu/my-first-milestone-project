@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Oswald, sans-serif;
+    background-color: black;
+    color: grey;
+    font-size: 140%;
+    letter-spacing: 2px;
+}
+
+h1, h2 {
+    color: #fff;
+    font: bold;
+    font-family: Lato, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#top-of-page {
+    line-height: 70px;
+    padding: 10px;
+    border-top: 1px solid white;
+    text-align: center;
+}
+
+#logo {
+    margin-top:  40px;
+    letter-spacing: 10px;
+}
+
+#navigation {
+    word-spacing: 7px;
+}
+
+#navigation li {
+    list-style-type: none;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid white;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
+.line {
+    border-bottom: 1px solid white;
+}
+
+.under-header {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#homepage-pic {
+    height: 600px;
+    width: 100%;
+    background: url('../photos/homepage.webp') no-repeat center;
+    background-size: cover;
+}
+
+
+.homepage-pic-text {
+    position: absolute;      
+    width: 300px;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    background-color: rgba(0, 0, 0, .7);
+    bottom: 30px;
+    right: 150px;
+
+}
+
+#map-text {  
+    text-align: right;   
+    background-color: rgba(12, 8, 8, 0.7);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    width: 30%;
+    height: 20%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    right: 100px;
+}
+
+footer {
+    height: 70px;
+    border-top: 1px solid white;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+}
+
+
