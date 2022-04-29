@@ -89,6 +89,28 @@ h1, h2 {
 
 }
 
+#under-image {
+    height: 300px;
+    margin-top: 10px;
+}
+
+#left-quote {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-quote {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#middle-message {
+    width: 33%;
+    margin: 0 auto;
+}
+
 #map-text {  
     text-align: right;   
     background-color: rgba(12, 8, 8, 0.7);
